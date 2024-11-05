@@ -11,10 +11,10 @@ export default function app() {
 
 
   return (
-<View className='bg-red-500'>
-<Text  className='bg-red-500'>
+<View className='flex flex-1 justify-center items-center'>
+<Text  className='text-5xl'>
 raja!
-<Link href='/profile' className=''>go profile</Link>
+<Link href='/home' className=''>go home</Link>
 </Text>
 </View>
   );
